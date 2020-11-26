@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Top page CSS */
+
+.center-image{
+  display:flex;
+  justify-content:center; /* horizontally center */
+  align-items:center;    /* vertically center */
+  background:#000000;
+}
+
+/* END */
+
+/* OrderConfirmation page CSS */
+
+.btn.waves-effect.waves-light {
+  border: 2px solid #fff;
+}
+
+/* END */
