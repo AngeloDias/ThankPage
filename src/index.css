@@ -29,4 +29,12 @@ code {
   border: 2px solid #fff;
 }
 
+.order-message {
+  background: #FFCC99;
+}
+
+.order-items {
+  background: #A0A7AC;
+}
+
 /* END */

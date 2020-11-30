@@ -9,7 +9,7 @@ export default class EntirePage extends Component {
             <div>
                 <PageTopComponent />
                 <OrderConfirmationComponent />
-            <PageBottomComponent />
+                <PageBottomComponent />
             </div>
         )
     }
