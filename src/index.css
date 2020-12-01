@@ -25,6 +25,13 @@ code {
 
 /* OrderConfirmation page CSS */
 
+
+.center-image-order{
+  display:flex;
+  justify-content:center; /* horizontally center */
+  align-items:center;    /* vertically center */
+}
+
 .btn.waves-effect.waves-light {
   border: 2px solid #fff;
 }
@@ -34,7 +41,26 @@ code {
 }
 
 .order-items {
-  background: #A0A7AC;
+  /* Cinza escuro: #A0A7AC */
+  background: #F8F8F8;
+}
+
+.container-order {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-shipping-info {
+  background: #EEEEEE;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 30;
 }
 
 /* END */
