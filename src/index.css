@@ -18,6 +18,16 @@ code {
   border-radius: 20px !important;
 }
 
+.line-horizontal-container {
+  align-items: center;
+  display: flex;
+  height: 80px;
+}
+.line-horizontal {
+  border-top: 1px solid rgb(30, 30, 30);
+  width: 100%;
+}
+
 /* Entire page */
 
 .center-entire-page {
@@ -62,7 +72,7 @@ code {
 
 .order-items {
   /* Cinza escuro: #A0A7AC */
-  background: #F8F8F8;
+  background: #A0A7AC;
 }
 
 .container-order {
