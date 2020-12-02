@@ -7,9 +7,9 @@ export default class EntirePage extends Component {
     render() {
         return(
             <div>
-                <PageTopComponent />
+                
                 <OrderConfirmationComponent />
-                <PageBottomComponent />
+                
             </div>
         )
     }
