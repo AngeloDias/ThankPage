@@ -3,8 +3,8 @@ import blackDog from '../images/black-dog.jpg';
 
 export default function PageTopComponent() {
     return (
-        <div className="center-image">
-            <img src={blackDog} width="650" className="materialboxed center-align" alt="top" />
+        <div className="center-image image-to-parent">
+            <img src={blackDog} className="materialboxed center-align responsive-img" alt="top" />
         </div>
     )
 }

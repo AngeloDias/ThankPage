@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import PageTopComponent from './PageTopComponent';
+import OrderGeneralInfoConfirmationComponent from './OrderGeneralInfoConfirmationComponent';
+import OrderDogInfosComponent from './OrderDogInfosComponent';
 import OrderConfirmationComponent from './OrderConfirmationComponent';
 import PageBottomComponent from './PageBottomComponent';
 
@@ -8,7 +10,9 @@ export default class EntirePage extends Component {
         return(
             <div>
                 <PageTopComponent />
-                <OrderConfirmationComponent />
+                <OrderGeneralInfoConfirmationComponent />
+                <OrderDogInfosComponent />
+                {/* <OrderConfirmationComponent /> */}
                 <PageBottomComponent />
             </div>
         )

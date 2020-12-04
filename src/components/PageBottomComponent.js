@@ -5,7 +5,7 @@ export default function PageBottomComponent() {
         <footer className="page-footer bottom-section">
             <div className="container">
                 <div className="row">
-                    <p className="grey-text"><a className="grey-text" href="#">Unsubscribe</a> • <a className="grey-text" href="#">Contact me</a></p>
+                    <p className="grey-text"><a className="grey-text" href="#1">Unsubscribe</a> • <a className="grey-text" href="#2">Contact me</a></p>
                 </div>
             </div>
 

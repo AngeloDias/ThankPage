@@ -48,10 +48,18 @@ img {
 
 /* Entire page */
 
-.center-entire-page {
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.center-element-by-parent {
   display:flex;
-  justify-content:center;
-  align-items:center;
+  justify-content:center; /* horizontally center */
+  align-items:center;    /* vertically center */
+  background: inherit;
 }
 
 /* END */
@@ -116,5 +124,9 @@ hr {
   margin: 1em 0;
   padding: 30;
 }
+
+/* END */
+
+/* Footer page CSS */
 
 /* END */
