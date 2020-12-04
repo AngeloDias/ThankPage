@@ -4,7 +4,7 @@ import malinois from '../images/malinois.png';
 export default function OrderConfirmationComponent() {
     return(
         <div>
-            <div className="section no-pad-bot order-message">
+            <div className="section no-pad order-message">
                 <div className="container">
                     <br></br><br></br>
 
@@ -14,15 +14,15 @@ export default function OrderConfirmationComponent() {
                             We'll let you know about the informations update.</p>
                     </div>
                     <div className="row center">
-                        <a href="" className="btn-large waves-effect waves-light black round-button">View the dog's health details</a>
+                        <a href="#" className="btn-large waves-effect waves-light black round-button">View the dog's health details</a>
                     </div>
                     <br></br><br></br>
 
                 </div>
             </div>
 
-            <div className="section order-items">
-                <div className="section">
+            <div className="container order-items">
+                <div className="section no-pad">
                     <div className="row">
                         <h3 className="center">Dog health</h3>
 
@@ -46,7 +46,7 @@ export default function OrderConfirmationComponent() {
                     <div className="line-horizontal"></div>
                 </div>
 
-                <div className="section">
+                <div className="section no-pad">
                     <div>
                         <table className="responsive-table center-table" border="0">
                             <tbody>
@@ -67,7 +67,7 @@ export default function OrderConfirmationComponent() {
                     </div>
                 </div>
 
-                <div className="section order-shipping-info">
+                <div className="section no-pad order-shipping-info">
                     <div className="row center">
                         <h3>Order & shipping info</h3>
 
@@ -86,6 +86,26 @@ export default function OrderConfirmationComponent() {
                                 <p className="light"><strong>Street:</strong> Aquela ali do lado</p>
                                 <p className="light"><strong>Neighborhood:</strong> Muritiba</p>
                                 <p className="light"><strong>City:</strong> Atlântida</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="section no-pad">
+                    <div className="row center">
+                        <div className="col s12 m6 l6">
+                            <div>
+                                <h5><strong>We're here to help</strong></h5>
+
+                                <p className="light">If you want to contact me, it's my <a href="#">WhatsApp number</a>.</p>
+                            </div>
+                        </div>
+
+                        <div className="col s12 m6 l6">
+                            <div>
+                                <h5><strong>Our guarantee</strong></h5>
+
+                                <p className="light">Your satisfaction is our greatest goal.</p>
                             </div>
                         </div>
                     </div>
