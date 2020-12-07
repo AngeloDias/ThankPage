@@ -116,6 +116,14 @@ img {
   text-align: center;
 }
 
+.medium {
+  font-weight: 350;
+}
+
+.strong-medium-p {
+  font-weight: 600 !important;
+}
+
 hr {
   display: block;
   height: 1px;

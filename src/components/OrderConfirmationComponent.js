@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function OrderConfirmationComponent() {
     return(
-        <div className="section no-pad order-items">
+        <div className="section order-items">
             <div className="row center">
                 <div className="col s12 m6 l6">
                     <div>
