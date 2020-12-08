@@ -3,7 +3,7 @@ import malinois from '../images/malinois.png';
 
 export default function OrderDogInfosComponent() {
     return(
-        <div className="section no-pad">
+        <div className="section">
             <div className="row">
                 <h3 className="center">Dog health</h3>
 
